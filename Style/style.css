@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+#main{
+    min-height: 50vh;
+    background: rgb(9, 24, 121);
+    padding-top: 100px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+#add{
+    background: rgb(223, 223, 223);
+    min-height: 50vh;
+    font-family: 'Patrick Hand', cursive;
+}
+#add .card{
+    margin-top: -60px;
+}
+@media screen and (max-width: 790px) {
+    #add .card{
+        width: 350px;
+    }
+}
